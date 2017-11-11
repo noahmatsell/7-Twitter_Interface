@@ -1,0 +1,24 @@
+extends layout
+
+block main
+	.bounds.app--body
+		//HEADER
+		.app--section--header
+			.grid-33
+				.app--section--heading
+					h2 Timeline
+			.grid-33
+				.app--section--heading
+					strong 129
+					h2 Following
+			.grid-33
+				.app--section--heading
+					h2 Direct Messages
+		
+		//tweets list
+		include includes/tweets.pug 
+		//followers list
+		include includes/followers.pug 
+		//messages list
+		include includes/messages.pug 
+        
