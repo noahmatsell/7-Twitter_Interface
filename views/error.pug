@@ -1,4 +1,6 @@
 extends layout
 	
 block main
-	h1= `${error.message} - Status: ${error.status}`
+	h1= title
+	p= error
+	a(href='/') Try the homepage

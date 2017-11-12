@@ -1,6 +1,8 @@
 extends layout
 
 block main
+	include includes/header.pug
+	include includes/footer.pug
 	.bounds.app--body
 		//HEADER
 		.app--section--header
@@ -9,7 +11,7 @@ block main
 					h2 Timeline
 			.grid-33
 				.app--section--heading
-					strong 129
+					strong= user.friends_count
 					h2 Following
 			.grid-33
 				.app--section--heading
