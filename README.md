@@ -2,7 +2,7 @@
 An Express app that authenticates with Twitter to show recent activity and send tweets.
 
 To run locally:
-- Create a config.json file:
+- Create a config.json file on the root and add your Twitter App credentials:
 ```
 module.exports = {
   consumer_key: "YOUR-CONSUMER-KEY",
