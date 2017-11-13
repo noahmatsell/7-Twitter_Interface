@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const moment = require('moment');
 const Twit = require('twit');
-const config = require('./config.json');
+const config = require('./config.js');
 const T = new Twit(config);
 
 app.use(bodyParser.urlencoded({ extended: false}));
